@@ -1,0 +1,276 @@
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+header{
+	z-index: 2000;
+	position: fixed;
+	width:100%;}
+
+.logo a{
+	font-size: 25px;
+	font-family:"Gill Sans", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color:#F7E44F;
+	text-decoration: none;
+}
+.menu {display:flex;}
+.menu a {margin:0 32px;
+		font-family:"Gill Sans", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		color: #F7E44F;
+		text-decoration: none;}
+.phone {margin-right:10px;
+		font-family:"Gill Sans", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		color: white;
+		text-decoration: none;}
+.btn {padding:8px 32px;
+	background:#F7E44F;
+	font-family:"Gill Sans", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: white;
+	text-decoration: none;
+	border-radius:20px;
+	}
+
+.ft-img img {height:400px;}
+.banner-ct p{font-family:"Gill Sans", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"; color: white;}
+.banner-ct .headline {font-size:30px;
+					font-family:"Gill Sans", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+					color:white;}
+
+.banner{width:100%;
+	height:100vh;
+	background-image: url(h4.jpg);
+	background-size:cover;
+	background-position: 50% 80%;
+	overflow: hidden;
+	}
+.banner-ct{
+	padding-top:210px;
+	align-items: center;
+}
+.about-title{
+	font-size: 25px;
+	font-family:"Gill Sans", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: #F7E44F;
+	text-decoration: none;
+	text-align:center;
+	
+}
+.about-content-1 h2{padding-bottom:10px;
+	font-family:"Gill Sans", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: #F7E44F;
+	text-align:center;
+}
+.about-content-1
+p{	padding:10px 5px;
+	font-family:"Gill Sans", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	text-align:center;
+}
+
+.about-content-2{
+	text-align: center;
+}
+.about-content-2 h2{
+	font-family:"Gill Sans", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+.about-content-2 p{
+	font-family:"Gill Sans", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+	
+.about-content-3 h2{padding-bottom:10px;
+	font-family:"Gill Sans", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: #F7E44F;
+	text-align:center;
+}
+.about-content-3 p{font-family:"Gill Sans", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	text-align:center;
+	color:white;
+	
+}
+.about-content-1
+p{	padding:5px 5px;
+	font-family:"Gill Sans", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	text-align:center;
+	color: white;
+}
+.background{
+	background-image: url(julian-wirth-dNK0bEljO2Y-unsplash.jpg);
+	width:100%;
+	height:100vh;
+	background-size:cover;
+	position: relative;
+	overflow: hidden;
+	background-position: 50% 80%;
+}
+
+.about-img img{
+	padding-left:60px;
+	height:400px;
+	position:absolute;
+	z-index: 10;
+}
+.about-img .hcn{
+	height:400px;
+	weight:400px;
+	position:absolute;
+	right:-200;
+}
+
+
+.content-left h2{
+	color: #F7E44F;
+}
+.content-left p{
+	color:white;
+}
+.skill-bgr{
+background-image:url(xander-ashwell-bhTjAUHHvSg-unsplash.jpg);
+	width:100%;
+	height:80vh;
+	background-size:cover;
+	position: relative;
+	overflow: hidden;
+	background-position: 50% 80%;
+}
+.skills{
+	width:100%;
+	mmax-width: 600px;
+	padding:0 20px;
+}
+.skill-name{
+	font-size:18px;
+	font-weight:700;
+	color:white;
+	text-transform:uppercase;
+	margin:20px 0;
+	font-family:"Gill Sans", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+.skill-bar{
+	height:14px;
+	background:#282828;
+	border-radius:3px;
+}
+.skill-per{
+	height:14px;
+	background: #F7E44F;
+	border-radius:3px;
+	position:relative;
+}
+.skill-per::before{
+	content:attr(per);
+	position:absolute;
+	padding: 4px 6px;
+	background:#f1f1f1;
+	border-radius:4px;
+	font-size:12px;
+	top:-35px;
+	right: 0;
+	Transform: translatex(50%);
+}
+.por-bgr{
+	background-image:url(adrien-olichon-u34JNBOIQ10-unsplash.jpg);
+	width:100%;
+	height:130vh;
+	background-size:cover;
+	position: relative;
+	overflow: hidden;
+	background-position: 50% 80%;
+}
+.menu-por a{
+	text-align: center;
+	margin: 130px;
+	font-family:"Gill Sans", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: #F7E44F;
+	text-decoration: none;
+}
+
+
+.container-img{
+	margin:0 auto;
+	width:900px;
+	height:500px;
+}
+.box .b1{
+	height:200px;
+	width:300px;
+	background-image:url(IMG_0117.JPG);
+	background-size: cover;
+
+}
+.box .b2{
+	height:200px;
+	width:300px;
+	background-image: url(jan-huber-CD6aGett2oo-unsplash.jpg);
+	background-size: cover;
+}
+.box .b3{
+	height:200px;
+	width:300px;
+	background-image: url(roya-ann-miller-qC8w_2Auzk8-unsplash.jpg);
+	background-size: cover;
+}
+.box .b4{
+	height:200px;
+	width:300px;
+	background-image: url(IMG_0118.JPG);
+	background-size: cover;
+}
+.box .b5{
+	height:200px;
+	width:300px;
+	background-image: url(hilda-trinidad-NC55CNnsnO0-unsplash.jpg);
+	background-size: cover;
+}
+.box .b6{
+	height:200px;
+	width:300px;
+	background-image: url(micael-widell-JJDT8lgdoCM-unsplash.jpg);
+	background-size: cover;
+}
+
+.box{
+	display: flex;
+	justify-content: space-around;
+	padding-top: 30px;	
+}
+.background-ct{
+background-image:url(elijah-flores-44se2xSCo00-unsplash.jpg);
+	width:100%;
+	height:80vh;
+	background-size:cover;
+	position: relative;
+	overflow: hidden;
+	background-position: 50% 80%;
+}
+
+.container-icon{
+/*	position: absolute;*/
+/*	z-index: 30;*/
+	margin:0 auto;
+	width:800px;
+	height:300px;
+	padding: 50px 0;
+}
+ 
+.icon{
+	padding-top:100px;
+	box-sizing:border-box;
+	display:flex;
+	justify-content:center;
+	padding-left:100px;
+	}
+.icon a{
+	font-family:"Gill Sans", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: #F7E44F;
+	font-size:30px;
+	margin-right:10px;
+	font-size:20px;
+}
+.icon p{font-family:"Gill Sans", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: #F7E44F;
+	margin-right:40px;
+	text-align: center;
+	font-size: 20px;
+}
